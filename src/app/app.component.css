@@ -1,0 +1,80 @@
+
+.topcontent{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.covidinfo{
+    width: 96%;
+    background-color: white;
+}
+
+.mat-customcolor{
+    background-color: #3983bd;
+    color: white;
+}
+
+.grid1{
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+}
+
+.panel1{
+    background-color: #3983bd;
+    margin: .5%;
+}
+
+.panel2{
+    background-color: #3983bd;
+    margin: .5%;
+}
+
+.panel3{
+    background-color: #3983bd;
+    margin: .5%;
+}
+
+.otherinfo{
+    background-color: white;
+    padding: 2%;
+    display: grid;
+    justify-items: center;
+}
+
+.otherinfowriting{
+    width: 90%;
+}
+
+.grid2{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+}
+
+.faqs{
+    background-color: white;
+    margin: 2%;
+    float: left;
+}
+
+.picknumbertable{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #3983bd;
+}
+
+.moreresources{
+    background-color: white;
+    margin: 2%;
+    float: right;
+}
