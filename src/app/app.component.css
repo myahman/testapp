@@ -1,9 +1,18 @@
 
-.topcontent{
+.sidecontent{
+    height: 80%;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    width: 20%;
     display: grid;
     grid-template-columns: 100%;
     justify-content: space-evenly;
     justify-items: center;
+    float: right;
+}
+
+.bottomcontent{
+    width: 100%;
 }
 
 .title{
@@ -11,8 +20,8 @@
 }
 
 .covidinfo{
-    width: 96%;
     background-color: white;
+    float: right;
 }
 
 .mat-customcolor{
@@ -21,6 +30,7 @@
 }
 
 .grid1{
+    width: 100%;
     padding-top: 2%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -43,6 +53,8 @@
 }
 
 .otherinfo{
+    height: 90%;
+    width: 70%;
     background-color: white;
     padding: 2%;
     display: grid;
